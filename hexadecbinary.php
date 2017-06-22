@@ -41,9 +41,9 @@
      * $val1 = $a & $b; // 11110000 & 00001111 = 00000000
      * & = the bitwise AND operator; means it checks if a bit is set in both values.
      * $val2 = $a | $b; // 11110000 | 00001111 = 11111111
-     * // bitwise OR  = 11111111 = dec 255 = hexa = hexa 0xFF
+     * // | = the bitwise OR operator; means it checks if a bit is set in one of the values
      * $val3 = $a ^ ($b | $a); // 11110000 ^ 11111111
-     * // bitwise XOR = 00001111  = dec  15 = hexa 0x0F
+     * ^ = the bitwise XOR operator; means it checks if a bit is set in one of the values, but not both
      */ 
      
     /* Step 4: Transform binary values to normal values
